@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@primer/octicons-react': ^19.11.0
   '@types/node': ^20
   '@types/react': ^18
   '@types/react-dom': ^18
@@ -14,6 +15,7 @@ specifiers:
   typescript: ^5
 
 dependencies:
+  '@primer/octicons-react': 19.11.0_react@18.3.1
   next: 14.2.5_nnrd3gsncyragczmpvfhocinkq
   react: 18.3.1
   react-dom: 18.3.1_react@18.3.1
@@ -254,6 +256,15 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@primer/octicons-react/19.11.0_react@18.3.1:
+    resolution: {integrity: sha512-8PpCz7cpYY2GCGnJ/G9UARh9PH4C290l31YjriQHZ+WsagE37ntKXhFwq+s4OWoRqZ7fA7HeU81zGDFHQi0VKg==}
+    engines: {node: '>=8'}
+    peerDependencies:
+      react: '>=16.3'
+    dependencies:
+      react: 18.3.1
+    dev: false
 
   /@rushstack/eslint-patch/1.10.3:
     resolution: {integrity: sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==}
